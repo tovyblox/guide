@@ -22,7 +22,7 @@ Once we deploy we should be on a page that looks like this
 
 ![](https://cdn.iharrblx.xyz/firefox_wq3XjVBVgK.png)
 
-Now you are going to wait for it to say success like this ![](<../.gitbook/assets/image (3).png>)at the top
+Now you are going to wait for it to say success like this ![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2F4cbCeFPluP3EcdvhrLFP%2Fimage.png?alt=media&token=739a32a4-d819-412e-98e4-266fe374c061) at the top
 
 
 
