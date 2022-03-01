@@ -29,6 +29,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   themeConfig: {
     logo: "/assets/icon.png",
     repo: "ItsWHOOOP/tovy",
+    docsRepo: "tovyblox/guide"
 
     locales: {
       "/": {
