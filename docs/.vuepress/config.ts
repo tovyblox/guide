@@ -4,7 +4,7 @@ import { nav, side } from "./layout";
 
 export default defineUserConfig<DefaultThemeOptions>({
   head: [
-    ["meta", { name: "application-name", content: "Frappé Documentation" }],
+    ["meta", { name: "application-name", content: "Tovy Documentation" }],
     ["link", { rel: "icon", href: "/assets/favicon.ico" }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     ["link", { rel: "preconnect", href: "https://fonts.gstatic.com" }],
@@ -29,7 +29,9 @@ export default defineUserConfig<DefaultThemeOptions>({
   themeConfig: {
     logo: "/assets/icon.png",
     repo: "ItsWHOOOP/tovy",
+    docsBranch: 'master',
     docsRepo: "tovyblox/guide",
+    editLinkPattern: ':repo/edit/:branch/docs/:path',
 
     locales: {
       "/": {
