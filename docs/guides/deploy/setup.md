@@ -9,7 +9,7 @@ For starter groups, we recommend using the Railway method as it is much easier t
 ## Setting up Tovy in your server
 :::warning
 You are expected to know how to use the terminal as well as the NodeJS runtime.
-Tovy is **not responsible** for any user errors caused during the setup process, this includes money/playerbase losses, server crashes, thermonuclear wars, et cetera.
+Tovy is **not responsible** for any user errors caused during the setup process, this includes money/playerbase losses, server crashes, et cetera.
 :::
 
 As long as the corresponding platform is supported by the [NodeJS runtime](https://nodejs.org/), Tovy can be installed and hosted for your fellow group members to use.
