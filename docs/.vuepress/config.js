@@ -1,11 +1,6 @@
 const nav = require('./nav')
 module.exports = {
   title: 'Tovy guides',
-  plugins: [
-    ["vuepress-plugin-auto-sidebar", {
-      // options
-    }],
-  ],
   themeConfig: {
     logo: '/assets/Icon_Transparent@2x.png',
     sidebar: {
