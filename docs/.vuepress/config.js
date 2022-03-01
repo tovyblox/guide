@@ -52,7 +52,6 @@ module.exports = {
       ],
     },
     navbar: [
-      // nested group - max depth is 2
       {
         text: 'Guide',
         link: '/guide/',
