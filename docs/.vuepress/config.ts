@@ -28,7 +28,7 @@ export default defineUserConfig<DefaultThemeOptions>({
 
   themeConfig: {
     logo: "/assets/icon.png",
-    repo: "ItsWHOOOP/tovy",
+    repo: "tovyblox/tovy",
     docsBranch: 'master',
     docsRepo: "tovyblox/guide",
     editLinkPattern: ':repo/edit/:branch/docs/:path',

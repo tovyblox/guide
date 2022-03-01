@@ -12,7 +12,7 @@ Once that is done we are going to need to run `npm install pm2` in the terminal 
 
 ### Installing Tovy
 
-We're going to want to run `git clone http://github.com/ItsWHOOOP/tovy.git` in our terminal!
+We're going to want to run `git clone http://github.com/tovyblox/tovy.git` in our terminal!
 
 
 
