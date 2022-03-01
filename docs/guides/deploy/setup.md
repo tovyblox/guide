@@ -160,7 +160,7 @@ pm2 start start.js
 
 and it should start serving Tovy under the location [localhost:8080](http://locahost:8080). Point it to the server's IP and map it to a (sub)domain.
 
-## Setting up Tovy as a Railway project
+## Setting up Tovy as a Railway project (free plan)
 ::: warning
 Again, this solution is free, but if your group is relatively large, avoid the free plan and go for the paid tiers.
 :::
