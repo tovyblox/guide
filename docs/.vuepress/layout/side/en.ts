@@ -13,9 +13,8 @@ export const en: SidebarConfig = {
       text: "Getting Started",
       children: [
         "/guides/",
-        "/guides/deploy/database.md",
-        "/guides/deploy/installing.md",
-        "/guides/deploy/hosting.md",
+        "/guides/deploy/setup.md",
+        "/guides/deploy/update.md",
       ],
     },
 
