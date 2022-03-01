@@ -8,7 +8,7 @@ actions:
     link: /guides/
     type: primary
   - text: Get Started with Railway
-    link: /guides/deploy/hosting#hosting-on-railway
+    link: /guides/deploy/setup.md#setting-up-tovy-as-a-railway-project
     type: secondary
 features:
   - title: Open Source
