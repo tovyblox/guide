@@ -174,7 +174,7 @@ Railway offers a free tier, if your group is small, we highly recommend using Ra
 ### Deploying Tovy onto Railway
 To begin, click the button below
 
-[![Deploy on Railway](https://railway.app/new/template?code=qfoUkI)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?code=qfoUkI)
 
 Signup/login Railway with your GitHub account, make sure you have installed the Railway app into your account/organisation.
 
