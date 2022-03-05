@@ -7,7 +7,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     ["meta", { name: "application-name", content: "Tovy Documentation" }],
     ["link", { rel: "icon", href: "/assets/favicon.ico" }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
-    ["link", { rel: "preconnect", href: "https://fonts.gstatic.com" }],
+    ["link", { rel: "preconnect", href: "https://cdn.jsdelivr.net" }],
+    ["script", { defer: true, 'data-domain': 'docs.tovyblox.xyz', src: "https://analytics.whooopdev.xyz/js/plausible.js" }],
     [
       "link",
       {
@@ -15,7 +16,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         rel: "stylesheet",
       },
     ],
-  ],
+  ], 
 
   locales: {
     "/": {
