@@ -16,7 +16,7 @@ As long as the corresponding platform is supported by the [NodeJS runtime](https
 
 ### Prerequisites
 - A computer & a server
-- NodeJS installed with a package manager (Yarn, pnpm, or npm (included with NodeJS))
+- NodeJS 16+ installed with a package manager (Yarn, pnpm, or npm (included with NodeJS))
 - Git installed
 - Internet connection
 
