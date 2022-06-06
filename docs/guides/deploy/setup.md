@@ -170,8 +170,12 @@ Heroku offers a free tier (with credit card), if your group is small, we highly 
 ### Prerequisites
 - A credit card (if you are going for the paid tiers)
 - A Heroku account (with credit card linked)
+- A Github Account
 
 ### Deploying Tovy onto Heroku
+
+Before we start, go to the [Tovy Github page](https://github.com/tovyblox/tovy), and hit the "fork" button and wait for it to finish. This is needed for when we update.
+
 To begin, click the button below
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tovyblox/tovy/tree/master)
