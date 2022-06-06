@@ -160,6 +160,67 @@ pm2 start start.js
 
 and it should start serving Tovy under the location [localhost:8080](http://locahost:8080). Point it to the server's IP and map it to a (sub)domain.
 
+## Setting up Tovy as a Heroku Dyno (free plan)
+::: warning
+Again, this solution is free, but if your group is relatively large, avoid the free plan and go for the paid tiers. You also have to add your credit card info to Heroku in order to allow the project to be up the whole month
+:::
+
+Heroku offers a free tier (with credit card), if your group is small, we highly recommend using Heroku as a temporary platform.
+
+### Prerequisites
+- A credit card (if you are going for the paid tiers)
+- A Heroku account (with credit card linked)
+
+### Deploying Tovy onto Heroku
+To begin, click the button below
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tovyblox/tovy/tree/master)
+
+You should be presented with this screen. Type a name in that isn't taken, you can do something along the lines of "{group-name}-tovy" and hit 'Deploy app'.
+
+![](https://i.postimg.cc/PxfysD74/image.png)
+
+Wait for it to install and build, it will error with missing MongoDB URI, but we will fix this later.
+
+Once it is done, hit the "Manage App" button.
+
+![img](https://i.postimg.cc/s2j7vrJf/image.png)
+
+You will be thrown onto a project page. From here, press the "settings" tab on the menu.
+
+![](https://i.postimg.cc/XJX5kkhT/image.png)
+
+Scroll down to "Reveal Config Vars" and click the button to show a empty variable table.
+
+![](https://i.postimg.cc/CxHQfkWG/image.png)
+
+Grab a MongoDB URI by following [this](https://docs.tovyblox.xyz/guides/deploy/setup.html#setting-up-mongodb) guide, and have that copied or in a notepad handy.
+
+Create 2 variables in this tab, one called "PORT" with the value of 8080, and one with the name MONGO_URI with the URI you got earlier as the value.
+
+![](https://i.postimg.cc/4xLpM3tC/image.png)
+
+Now, restart the dyno by clicking "more" and "restart all dynos".
+
+![](https://i.postimg.cc/8PyFk0CM/image.png)
+
+### Setting up Tovy for the first time
+
+When Heroku finished building Tovy, you will see a "open app" button, click that button to view your instance. If you don't see the image below, wait for it to finish building, or ask for support in the Discord.
+
+You should now see a page like this:
+![](https://cdn.iharrblx.xyz/firefox_06hQpOgbiI.png)
+
+::: warning Password
+Use an unique password. You should not use your own Roblox account's password for this!
+:::
+
+Enter your Roblox username (Not to be confused with display name), as well as a password to log into Tovy. And click next.
+
+Now, you should be able to see a new page, asking for your Roblox group's information. Enter your Group ID to the specified text field in order to proceed. To find your Group ID, head to your group first, the number sequence in the URL is the Group ID.
+
+🎉 Setup should be complete now!
+
 ## Setting up Tovy as a Railway project (free plan)
 ::: warning
 Again, this solution is free, but if your group is relatively large, avoid the free plan and go for the paid tiers.
@@ -185,6 +246,7 @@ Once that has been done, you should see a page like this:
 Check `Private repo?` and click `Deploy`.
 
 Railway will now create a MongoDB database and complete the initial setup for you. Just wait until you see `Success` at the top.
+
 
 ### Setting up Tovy for the first time
 When deploying Tovy with Railway, the database creation is automatically done for you, there is no need to create a database manually or whatsoever.
