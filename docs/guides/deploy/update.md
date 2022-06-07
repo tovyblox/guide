@@ -47,3 +47,37 @@ You should be able to see a new pull request named like this:
 Click into it and hit **Merge Pull Request**, and confirm the merge. Finally, delete the branch.
 
 🎉 You just updated Tovy to the latest version!
+
+### Updating Tovy in Heroku
+
+## Prerequisites
+- A Github Account
+
+First, log into your Heroku dashboard and click on the Tovy dyno.
+
+Then, go to the 'activity' tab.
+[![image.png](https://i.postimg.cc/j5QHM44c/image.png)](https://postimg.cc/xJ8NCH7N)
+
+Then, hit the "connect" button.
+[![image.png](https://i.postimg.cc/xCYHNbVz/image.png)](https://postimg.cc/gwSrfjJz)
+
+When asked to choose a pipeline, create a new one and name it whatever you want and leave the stage default.
+[![image.png](https://i.postimg.cc/HsjMMgRB/image.png)](https://postimg.cc/ppbyNg2F)
+
+Now, before the next step, go to Github
+
+It might take you back to a pipeline page, but just hit the "Connect to Github" to finish.
+
+Then, authorize your Github by pressing the button and following the prompt.
+[![image.png](https://i.postimg.cc/d0nQn7Td/image.png)](https://postimg.cc/B8LGnnpQ)
+
+In the "Connect to Github" field, type "Tovy" and click search, then connect.
+[![image.png](https://i.postimg.cc/yxx1MkPS/image.png)](https://postimg.cc/zHmYWD4J)
+
+Follow any prompts, and hit 'Done'.
+
+Now, go to `https://github.com/<YOUR GITHUB USERNAME HERE>/tovy` amd hit the 'fetch upstream' and 'fetch and merge'. Let it update, and wait for Tovy to reboot on Heroku.
+
+[![image.png](https://i.postimg.cc/zBfkXgqD/image.png)](https://postimg.cc/5HZzsjHD)
+
+🎉 You just updated Tovy to the latest version!
