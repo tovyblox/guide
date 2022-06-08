@@ -1,5 +1,10 @@
+:::info
+We now offer $5/month hosting, you can get started with /buy_setup in our [Discord server]
+:::
+
 # Setting up Tovy
-In this guide, we will walk you through both the installation and hosting process for Tovy. This page will also mention how to setup Tovy in a [Railway](https://railway.app/) project.
+In this guide, we will walk you through both the installation and hosting process for Tovy. This page will also mention how to setup Tovy in a [Railway](https://discord.gg/BjXjcZt6Wh) project.
+df
 
 For starter groups, we recommend using the Railway method as it is much easier to begin with. Larger groups can consider using Railway too! Just not the free tier.
 
