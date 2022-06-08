@@ -1,4 +1,4 @@
-:::info
+:::tip
 We now offer $5/month hosting, you can get started with /buy_setup in our [Discord server]
 :::
 
