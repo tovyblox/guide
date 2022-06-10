@@ -61,7 +61,7 @@ title: Introduction
       Need further assistance? –– <a href="https://discord.gg/2AJPbyNwbQ">Join our Discord server!</a>
     </li>
     <li>
-      🐛 Bugs? ✨ Suggestions? –– <a href="https://feedback.tovyblox.xyz/">Let us know here!</a>
+      🐛 Bugs? ✨ Suggestions? –– <a href="https://feedback.tovyblox.xyz/">Let us know on our feedback board!</a>
     </li>
   </ul>
   <h2>License</h2>
