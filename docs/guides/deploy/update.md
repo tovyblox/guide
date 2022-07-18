@@ -21,19 +21,19 @@ Once complete, deploy your Tovy instance again, either with `PM2` or whatever.
 ### Updating Tovy in Railway
 #### Setting up settings
 To update your Tovy instance in Railway, head to your Railway project page first, it should look something like this:
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2FgI1OwkF8TAEgcn1VxcQC%2Fimage.png?alt=media&token=4aeea30d-f036-4db8-a8a7-36aec98e001d)
+![](https://images.grplaza.org/bot/49385b07775de28000f957a2beccda85/3f340a529eb0dea6d2203718946a0e62.png)
 
-Find and click **Deployments**
-![](https://p96.tr4.n0.cdn.getcloudapp.com/items/Bludd8vp/8df9f943-617f-4b09-887a-ca2b471dfbb5.jpg?source=viewer&v=1d3975cdde70dac5fcdb4c01cdd34e66)
+Now press Tovy or whatever your the name of the repo you cloned Tovy into is
+![](https://images.grplaza.org/bot/2b8d93e1c7cbf405789f7c1a0f80fc6d/5f91962f8d6d1a4db33188fdbb3783fc.png)
 
 Now, head to the **Settings** tab:
-![](https://p96.tr4.n0.cdn.getcloudapp.com/items/NQuxxPG1/ea5c2776-9157-4918-b315-c0ca526289c6.jpg?source=viewer&v=f47811828c7e546aa4d72590bfaf12c9)
+![](https://images.grplaza.org/bot/6ebad73d6dba30d4791ab6e866e2460a/abb3d0395f3722b95687c642d6d275e2.png)
 
-There should be an option called **Pull Request Deploys**, turn it on.
-![](https://p96.tr4.n0.cdn.getcloudapp.com/items/DOumm0Zd/48accb7a-a44d-40d7-baee-01151ec7d795.jpg?source=viewer&v=15888dcad2a908c6ae544c865b545569)
+Now scroll down to the **Service** section and press Check for updates.
+![](https://images.grplaza.org/bot/3f0a1240e37b743978c7d7eb898224f7/e37c0e3650daa511776710e76c0e8a3c.png)
 
-Soon you should be greeted with a prompt, asking whether to update this project to the latest version. Click **Update**.
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2FtWxwG3MaN1KoL5nOXQ7m%2Fimage.png?alt=media&token=18f7975b-eff4-43ae-ba66-72d3fca1da6f)
+Soon you should be greeted with a prompt, asking whether to update this project to the latest version. Click **Yes**.
+![](https://images.grplaza.org/bot/49385b07775de28000f957a2beccda85/668fe313a7e0b072ca667453f847167d.png)
 
 #### Updating the repository
 Now, when an update is released, Railway will create a pull request for the updated content. In order to use the update, we need to accept its corresponding pull request and have it merge into the repository. In simplified form, **head to your GitHub repository**.
