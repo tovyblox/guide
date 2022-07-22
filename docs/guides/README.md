@@ -65,5 +65,5 @@ title: Introduction
     </li>
   </ul>
   <h2>License</h2>
-  Tovy is licensed under the Apache 2.0 license
+  Tovy is licensed under the <a href="https://github.com/tovyblox/tovy/blob/master/LICENSE">GNU General Public License v3.0</a>
 </div>
