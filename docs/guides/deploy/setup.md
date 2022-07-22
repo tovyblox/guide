@@ -4,11 +4,11 @@ We now offer $5/month hosting, you can get started with /buy_setup in our [Disco
 
 # Setting up Tovy
 In this guide, we will walk you through both the installation and hosting process for Tovy. This page will also mention how to setup Tovy in a [Railway](https://railway.app) project.
-df
+
 
 For starter groups, we recommend using the Railway method as it is much easier to begin with. Larger groups can consider using Railway too! Just not the free tier.
 
-## Table of Content
+## Table of Contents
 [[toc]]
 
 ## Setting up Tovy in your server
@@ -89,7 +89,7 @@ And click `Create Cluster`
 
 Now, you should see a new page asking for ways to authenticate the access to the database. Choose the `Username and Password` option, and pick something memorable yet safe.
 
-Then, to the IP allowlist, type `0.0.0.0` into the IP address field for now, and click `Add Enry`
+Then, to the IP allowlist, type `0.0.0.0` into the IP address field for now, and click `Add Entry`
 
 Finally, click `Finish and Close`. 🎉 You now have created a database for Tovy!
 
