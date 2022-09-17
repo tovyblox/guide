@@ -170,6 +170,10 @@ and it should start serving Tovy under the location [localhost:8080](http://loca
 Again, this solution is free, but if your group is relatively large, avoid the free plan and go for the paid tiers. You also have to add your credit card info to Heroku in order to allow the project to be up the whole month
 :::
 
+::: important
+Heroku is removing free plans. Read more [here](https://blog.heroku.com/next-chapter).
+:::
+
 Heroku offers a free tier (with credit card), if your group is small, we highly recommend using Heroku as a temporary platform.
 
 ### Prerequisites
