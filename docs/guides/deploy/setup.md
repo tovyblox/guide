@@ -89,7 +89,7 @@ And click `Create Cluster`
 
 Now, you should see a new page asking for ways to authenticate the access to the database. Choose the `Username and Password` option, and pick something memorable yet safe.
 
-Then, to the IP allowlist, type `0.0.0.0` into the IP address field for now, and click `Add Enry`
+Then, to the IP allowlist, type `0.0.0.0` into the IP address field for now, and click `Add Entry`
 
 Finally, click `Finish and Close`. 🎉 You now have created a database for Tovy!
 
