@@ -76,9 +76,12 @@ Copy the URL, and replace `<password>` with the password you entered earlier for
 ### Setting up Tovy for the first time
 Tovy requires some configuration before it can actually run. Configuring a system can be a hassle. However, luckily, we have made it very easy to do.
 
+For the secret key go to https://1password.com/password-generator/ and generate a password with 64 charactars that has symbols and copy it
+
 In the root of the file make a file called `.env` and copy/paste the below contents in it
 ```
 DATABASE_URL="<your-database-url>"
+SESSION_SECRET="<your-secret-key-with-32-chars>"
 ```
 
 Then, replace the database URL with the postgres database you made
@@ -144,12 +147,13 @@ Railway offers a free tier, if your group is small, we highly recommend using Ra
 ### Deploying Tovy onto Railway
 To begin, click the button below
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?code=qfoUkI)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/LvWOKQ?referralCode=D_TFvj)
 
 Signup/login Railway with your GitHub account, make sure you have installed the Railway app into your account/organisation.
 
-Once that has been done, you should see a page like this:
+For the secret key go to https://1password.com/password-generator/ and generate a password with 64 charactars that has symbols and copy it
 
+Then in SESSION_SECRET paste the code you just made
 Check `Private repo?` and click `Deploy`.
 
 Railway will now create a MongoDB database and complete the initial setup for you. Just wait until you see `Success` at the top.
