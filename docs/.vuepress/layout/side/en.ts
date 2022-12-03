@@ -30,6 +30,17 @@ export const en: SidebarConfig = {
       text: "Notices",
       children: ["/guides/notices/creating.md", "/guides/notices/reviewing.md"],
     },
+    {
+      text: "Docs",
+      //one guide
+      children: ["/guides/docs/creating.md"],
+    },
+    {
+      text: "General",
+      children: [
+        '/guides/sessions.md',
+      ]
+    },
 
     {
       text: "Settings",

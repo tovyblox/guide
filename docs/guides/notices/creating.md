@@ -1,19 +1,29 @@
-# Creating a notice
+# How to Create a Notice
+You just realized you are about to go on vacation but you have not informed your group that you need to take some time off!! Well don't worry, Tovy will help you inform your group that you are heading off to vacation and that you will be inactive in a few clicks.
+## Getting started
 
-First, go to the website and login, you will appear on the main screen like this.
+Go to the **activity** tab on your sidebar.
 
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2F0sjzGukZYvQQXX0pidzl%2FScreenshot%202022-01-11%20213936.png?alt=media&token=1d1914fb-0979-4b3c-96e8-84edcf42d79a)
+![Activity sidebar](https://images.grplaza.org/staff/07059962b8c3f81d803ba36234906676.png)
 
-Press the "Your Activity" tab.
+You will land on a page that shows the staff that are active and more!
+Press **View my notices** on the page.
+ 
+![Press view my notices](https://images.grplaza.org/staff/96f04ff3a06da1ac7126ece95278bbf0.png)
+ Once you land on the page press **create inactivity notice**.
+ ![Create inactivity notice](https://images.grplaza.org/staff/88ad8a49799bb2c8b5568fa92982779f.png)
+A thing will pop up once you press create and it will let you set the date of your inactivity and the reason. Once you have done all of that press submit and it will be sent for higher ranks to review.
 
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2Fl0rAc3Wbj28Yv0oQlmAb%2FScreenshot%202022-01-16%20144254.png?alt=media&token=2511027f-788d-4f46-a12c-d34024ac0cca)
+![Submit your notice](https://images.grplaza.org/staff/11c46fb88dab16754d531aa8c7f92391.png)
+You can view the status of your inactivity request by looking at the same tab and it will say if it is accepted declined or under review.
+![Under review](https://images.grplaza.org/staff/0b8e88233a204618af8a497a41441415.png) You can learn about how to accept and decline notices in the other guide about it.
 
-Press "create a notice" button.
+Now that you are done informing the group about your vacation wait for your request to be accepted and go enjoy your vacation (or whatever the inactivity is for)
+### Is this problem still persisting?
+If all the above steps are followed and the issue still persist, you may get support through the following channels:
 
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2Fl0rAc3Wbj28Yv0oQlmAb%2FScreenshot%202022-01-16%20144254.png?alt=media&token=2511027f-788d-4f46-a12c-d34024ac0cca)
-
-This UI will show on your screen, enter the reason you will be inactive and the dates you will be inactive and press accept.
-
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2Fl0rAc3Wbj28Yv0oQlmAb%2FScreenshot%202022-01-16%20144254.png?alt=media&token=2511027f-788d-4f46-a12c-d34024ac0cca)
-
-&#x20;That is all, you can learn about how to review notices in [how-to-review-notices.md](how-to-review-notices.md "mention")
+ **For Tovy Cloud user** You may contact a support team member through Tovy Cloud's live chat function.
+ 
+  **For self-hosted instance user** You may open a forum discussion in our Discord support section and community members will be able to help you. 
+ 
+ _Please note that staff are **not required** to provide assistance in the support forum section and therefore, do not ping any staff member. Staff team may choose to help and the community may provide additional assistance. Fret not, we have a great community of members who are willing to help each other._

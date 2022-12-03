@@ -1,21 +1,28 @@
-# Reviewing a notice
+# How to Review notices
+Your employee just said they needed to take an inactivity notice! They figured out how to submit one from the other guide and just needs you to review it! Well, don't worry with Tovy activity you will have it reviewed in just a few clicks!
+## Getting started
 
-First, go to the website and login, you will appear on the main screen like this.
+Go to the **activity** tab on your sidebar.
 
-![ ](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2F0sjzGukZYvQQXX0pidzl%2FScreenshot%202022-01-11%20213936.png?alt=media&token=1d1914fb-0979-4b3c-96e8-84edcf42d79a)
+![Activity sidebar](https://images.grplaza.org/staff/07059962b8c3f81d803ba36234906676.png)
 
-After you get on the home screen press the tab for "review notices".
+You will land on a page that shows the staff that are active and more!
+Press **view notices** on the page.
+ 
+![Press view notices](https://images.grplaza.org/staff/463382d9364e0026a4832d50f3a66d69.png)
+ Once you land on the page it will show you all the inactivity requests in your group. You can accept or deny them based on what you think (or your group rules) this will show up on the person who requested the inactivity screen once you decide.
+ ![Approve or deny inactivity](https://images.grplaza.org/staff/3122b2a30e66a65b0ec884d2e24d6c5e.png)
+ > In this case Horne_t is breaking company rules by going on vacation (joke) so I will press deny.
+ > For ItsWHOOOPS inactivity according to company policy we allow testing inactivity so I will press approve.
 
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2FfRcsACacf3U0fBbp7cwj%2FScreenshot%202022-01-17%20195408.png?alt=media&token=a89a9826-3671-4ab9-9afa-4a10decd7d9d)
+The person requesting the inactivity will see this on the screen once you approve or deny (depending on which one you do)
 
-You will appear on a screen that shows all the notice requests you can accept and deny them with the buttons.
+![Declined](https://images.grplaza.org/staff/a32ed7dc32244f1e921b68286a76a5a8.png)
+### Is this problem still persisting?
+If all the above steps are followed and the issue still persist, you may get support through the following channels:
 
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2FtyiD52JqKcJVz1FBEyBV%2FScreenshot%202022-01-17%20195901.png?alt=media&token=75df17cd-d511-4d77-8ddf-d0afba305d67)
-
-On the request it shows the person who made the notice request and the date and the reason they  said. You can learn how to make a notice in [how-to-create-a-notice.md](how-to-create-a-notice.md "mention") to test making a notice make sure to reload the page so the notice requests update on the page!
-
-When you press accept or deny it will show on the other persons screen that it was accepted or denied or is still being processed.
-
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2FtyiD52JqKcJVz1FBEyBV%2FScreenshot%202022-01-17%20195901.png?alt=media&token=75df17cd-d511-4d77-8ddf-d0afba305d67)
-
-&#x20;That is all you can learn about creating an notice by looking in [how-to-create-a-notice.md](how-to-create-a-notice.md "mention")
+ **For Tovy Cloud user** You may contact a support team member through Tovy Cloud's live chat function.
+ 
+  **For self-hosted instance user** You may open a forum discussion in our Discord support section and community members will be able to help you. 
+ 
+ _Please note that staff are **not required** to provide assistance in the support forum section and therefore, do not ping any staff member. Staff team may choose to help and the community may provide additional assistance. Fret not, we have a great community of members who are willing to help each other._

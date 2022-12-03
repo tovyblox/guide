@@ -47,10 +47,6 @@ You should be able to see a new pull request named like this:
 Click into it and hit **Merge Pull Request**, and confirm the merge. Finally, delete the branch.
 
 🎉 You just updated Tovy to the latest version!
-
-### Updating Tovy in Heroku
-
-## Prerequisites
 - A Github Account
 
 First, log into your Heroku dashboard and click on the Tovy dyno.

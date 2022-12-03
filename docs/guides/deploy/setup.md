@@ -1,5 +1,5 @@
 :::tip
-We now offer $5/month hosting, you can get started with /buy_setup in our [Discord server](https://discord.gg/BjXjcZt6Wh)
+We now offer $5/month hosting, you can get started by heading to [Tovy Cloud](https://cloud.tovyblox.xyz)
 :::
 
 # Setting up Tovy
@@ -23,6 +23,7 @@ As long as the corresponding platform is supported by the [NodeJS runtime](https
 - A computer & a server
 - NodeJS 16+ installed with a package manager (Yarn, pnpm, or npm (included with NodeJS))
 - Git installed
+- A PostgreSQL database
 - Internet connection
 
 ### Connecting to your server
@@ -37,7 +38,7 @@ Install [Git](https://git-scm.com) and the [NodeJS runtime](https://nodejs.org/)
 
 Once you are in your server, type the following commands in your terminal session to download Tovy:
 ```
-git clone https://github.com/ItsWHOOOP/tovy && cd tovy
+git clone https://github.com/tovyblox/tovy && cd tovy
 ```
 
 After it finishes downloading, you should now be in Tovy's directory, run this command so the required dependencies for Tovy are installed:
@@ -59,41 +60,8 @@ yarn install
 :::
 ::::
 
-### Setting up MongoDB
-Tovy uses MongoDB to store users' data. Without one, Tovy will not be able to run properly as information will not be saved.
 
-Head to [MongoDB](https://cloud.mongodb.com/) and create/login your account.
 
-#### Creating a new database
-
-Once you have created your account, you should be greeted with a page that looks like this:
-
-![](https://cdn.iharrblx.xyz/firefox_YwleKVNbgZ.png)
-
-Just fill in the blanks and continue. After that, you should see a page like this:
-
-![](https://cdn.iharrblx.xyz/firefox_4RcQYLWatU.png)
-
-Select either Dedicated or Shared tier. We recommend choosing the Dedicated tier if your group is relatively large.
-
-After that, you will be prompted to a new page, asking for your preference in cloud providers:
-
-![](https://cdn.iharrblx.xyz/firefox_WTrY3vIE51.png)
-
-Choose either AWS (Amazon Web Services), or Google Cloud. The location does not really matter much, but you should choose a location that is close to most of your group members.
-
-And click `Create Cluster`
-
-#### Setting up authorization
-![](https://cdn.iharrblx.xyz/firefox_Sm0rcJ0zak.png)
-
-Now, you should see a new page asking for ways to authenticate the access to the database. Choose the `Username and Password` option, and pick something memorable yet safe.
-
-Then, to the IP allowlist, type `0.0.0.0` into the IP address field for now, and click `Add Enry`
-
-Finally, click `Finish and Close`. 🎉 You now have created a database for Tovy!
-
-#### The URL
 
 Once done, you should now see a page like this:
 
@@ -106,26 +74,22 @@ Click the `Connect` button, and choose the `Connect your application` option. Af
 Copy the URL, and replace `<password>` with the password you entered earlier for this database (Not to be confused with your MongoDB account password). You'll need this for the next part.
 
 ### Setting up Tovy for the first time
-Tovy requires some configuration before it can actually run. Configuring a system can be a hassle. However, luckily, we have built a tool to make configuration less painful to do.
+Tovy requires some configuration before it can actually run. Configuring a system can be a hassle. However, luckily, we have made it very easy to do.
 
-To use the tool, just run:
+In the root of the file make a file called `.env` and copy/paste the below contents in it
 ```
-node start
+DATABASE_URL="<your-database-url>"
 ```
 
-#### Setting up database
+Then, replace the database URL with the postgres database you made
 
-A prompt will appear asking for the URL to your MongoDB database. Simply paste the URL given by MongoDB when creating the database into the terminal, and press Enter/Return.
+#### Starting Tovy
 
-![](https://cdn.iharrblx.xyz/Code_YZYuXeq40l.png)
-
-After that, Tovy should be running now.
+Now all we need to do is run 
 
 #### Setting up login and your group
 
-Once Tovy has started running, Tovy should reside in [localhost:8080](http://localhost:8080). Head to that page and setup login.
-
-![](https://cdn.iharrblx.xyz/firefox_06hQpOgbiI.png)
+Once Tovy has started running, Tovy should reside in [localhost:3000](http://localhost:300). Head to that page and setup login.
 
 ::: warning Password
 Use an unique password. You should not use your own Roblox account's password for this!
@@ -160,75 +124,11 @@ yarn global add pm2
 
 Once that has been done, run the command:
 ```
-pm2 start start.js
+pm2 start npm --name="Tovy" -- start
 ```
 
-and it should start serving Tovy under the location [localhost:8080](http://locahost:8080). Point it to the server's IP and map it to a (sub)domain.
+and it should start serving Tovy under the location [localhost:3000](http://locahost:3000). Point it to the server's IP and map it to a (sub)domain.
 
-## Setting up Tovy as a Heroku Dyno (free plan)
-::: warning
-Again, this solution is free, but if your group is relatively large, avoid the free plan and go for the paid tiers. You also have to add your credit card info to Heroku in order to allow the project to be up the whole month
-:::
-
-Heroku offers a free tier (with credit card), if your group is small, we highly recommend using Heroku as a temporary platform.
-
-### Prerequisites
-- A credit card (if you are going for the paid tiers)
-- A Heroku account (with credit card linked)
-- A Github Account
-
-### Deploying Tovy onto Heroku
-
-Before we start, go to the [Tovy Github page](https://github.com/tovyblox/tovy), and hit the "fork" button and wait for it to finish. This is needed for when we update.
-
-To begin, click the button below
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tovyblox/tovy/tree/master)
-
-You should be presented with this screen. Type a name in that isn't taken, you can do something along the lines of "{group-name}-tovy" and hit 'Deploy app'.
-
-![](https://i.postimg.cc/PxfysD74/image.png)
-
-Wait for it to install and build, it will error with missing MongoDB URI, but we will fix this later.
-
-Once it is done, hit the "Manage App" button.
-
-![img](https://i.postimg.cc/s2j7vrJf/image.png)
-
-You will be thrown onto a project page. From here, press the "settings" tab on the menu.
-
-![](https://i.postimg.cc/XJX5kkhT/image.png)
-
-Scroll down to "Reveal Config Vars" and click the button to show a empty variable table.
-
-![](https://i.postimg.cc/CxHQfkWG/image.png)
-
-Grab a MongoDB URI by following [this](https://docs.tovyblox.xyz/guides/deploy/setup.html#setting-up-mongodb) guide, and have that copied or in a notepad handy.
-
-Create 2 variables in this tab, one called "PORT" with the value of 8080, and one with the name MONGO_URI with the URI you got earlier as the value.
-
-![](https://i.postimg.cc/4xLpM3tC/image.png)
-
-Now, restart the dyno by clicking "more" and "restart all dynos".
-
-![](https://i.postimg.cc/8PyFk0CM/image.png)
-
-### Setting up Tovy for the first time
-
-When Heroku finished building Tovy, you will see a "open app" button, click that button to view your instance. If you don't see the image below, wait for it to finish building, or ask for support in the Discord.
-
-You should now see a page like this:
-![](https://cdn.iharrblx.xyz/firefox_06hQpOgbiI.png)
-
-::: warning Password
-Use an unique password. You should not use your own Roblox account's password for this!
-:::
-
-Enter your Roblox username (Not to be confused with display name), as well as a password to log into Tovy. And click next.
-
-Now, you should be able to see a new page, asking for your Roblox group's information. Enter your Group ID to the specified text field in order to proceed. To find your Group ID, head to your group first, the number sequence in the URL is the Group ID.
-
-🎉 Setup should be complete now!
 
 ## Setting up Tovy as a Railway project (free plan)
 ::: warning
@@ -250,8 +150,6 @@ Signup/login Railway with your GitHub account, make sure you have installed the 
 
 Once that has been done, you should see a page like this:
 
-![](https://cdn.iharrblx.xyz/firefox_ZGRbvm7wEt.png)
-
 Check `Private repo?` and click `Deploy`.
 
 Railway will now create a MongoDB database and complete the initial setup for you. Just wait until you see `Success` at the top.
@@ -261,9 +159,6 @@ Railway will now create a MongoDB database and complete the initial setup for yo
 When deploying Tovy with Railway, the database creation is automatically done for you, there is no need to create a database manually or whatsoever.
 
 When Railway finished building Tovy, you will see two links just below the build status text (psss: the one that says `Success`). Click the first one as the second is for development purposes only.
-
-You should now see a page like this:
-![](https://cdn.iharrblx.xyz/firefox_06hQpOgbiI.png)
 
 ::: warning Password
 Use an unique password. You should not use your own Roblox account's password for this!

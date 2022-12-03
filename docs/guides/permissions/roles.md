@@ -1,19 +1,70 @@
-# Roles
+# Roles and Permission
+In this guide, you will learn how to configure permissions on your workspace and assign the correct permissions to your fellow Tovy workspace members
 
-First, go to the website and login, you will appear on the main screen like this.
 
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2F0sjzGukZYvQQXX0pidzl%2FScreenshot%202022-01-11%20213936.png?alt=media&token=1d1914fb-0979-4b3c-96e8-84edcf42d79a)
+## Creating Roles
 
-Second, go to the bar on the left side of the screen and press settings.
+ 1. We will first start off by going to the settings page on your workspace. Select **"Settings"** on you navigation side bar.
+![Sidebar](https://i.imgur.com/Gbmrda3.png)
 
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2FdAr6HGQJ5lNW7qGhJdpW%2FScreenshot%202022-01-11%20214949.png?alt=media&token=6ee703ac-0a63-44f3-a49c-71374edc0805)
+2. You should have a view similar to this.![Setting page](https://i.imgur.com/M9WDfkN.png)
 
-After that press "roles".
+3. Select **"Permission"** tab.
+![Permission Tab](https://i.imgur.com/XSnX2Yf.png)
+4. Expand the **"Roles"** tab by clicking the grey arrow next to "Roles" to have a similar view as below.
+![Roles Tab](https://i.imgur.com/Kzl9nSP.png)
 
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2F9ifTUUROUyDF9QBW0kXP%2FScreenshot%202022-01-12%20170205.png?alt=media&token=2b422549-58ea-4271-b702-ad5b8f05a57b)
+5. Click on the **"Check group roles" button to ensure all the group roles are synced to the system.
 
-You can create roles by pressing "new role".
+6. Click on **"Add role"** to create a new role.
 
-![](https://2159974755-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FunMTB348tgzMbMDFEblw%2Fuploads%2FG7QLvfLPtu5pHlyzDgEm%2FScreenshot%202022-01-12%20170416.png?alt=media&token=0f42c428-1db4-475f-bb9c-9094df1d65dc)
+7. Select the new role by clicking on the grey arrow button next to it. You should then see something similar to this.![New Role](https://i.imgur.com/rWM0riE.png)
 
-You can edit the roles permissions by clicking on the role and enabling what permissions you want them to have. Learn more about giving people roles and inviting people in [inviting-and-giving-people-roles.md](inviting-and-giving-people-roles.md "mention")
+8. Rename the new role to any name that you desire. You can then set the permissions for the role and if you choose to do so, you can select group roles to automatically assign the corresponding workspace role to the user.
+
+9. All changes are then automatically saved. Feel free to refresh the tab to make sure the new changes have been applied.
+
+## Assigning roles to a user
+You can do this manually or automatically.
+
+### Manually
+1. We will first start off by going to the settings page on your workspace. Select **"Settings"** on you navigation side bar.
+![Sidebar](https://i.imgur.com/Gbmrda3.png)
+
+2. You should have a view similar to this.![Setting page](https://i.imgur.com/M9WDfkN.png)
+
+3. Select **"Permission"** tab.
+![Permission Tab](https://i.imgur.com/XSnX2Yf.png)
+
+4. Expand the **"Users"** tab by clicking on the grey arrow next to "Users".
+![Users tab](https://i.imgur.com/UqHyPGO.png)
+
+5. Search for the user in the search bar by typing in the full Roblox username.
+
+6. Select the roles drop down next to the user to assign a role. Choose **"Delete"** from the drop down to remove the user.
+![Assign Role](https://i.imgur.com/EKv5pMQ.png)
+
+7. All changes are then automatically saved. Feel free to refresh the tab to make sure the new changes have been applied.
+
+### Automatically
+Refer to screenshot in step **7** of the **Getting Started** section. Select the group ranks to bind the Tovy workspace role to under the **Group-synced roles**section.
+
+## FAQ
+
+### Are all changes saved automatically?
+Yes, however, if you want to be sure, you can always just refresh your tab to review the changes.
+
+### I can't find a group rank under the "Group-Synced Roles" section.
+Just click the "Check group ranks" button on the "Roles" tab. 
+![Roles Tab](https://i.imgur.com/Kzl9nSP.png)
+
+### I need more help.
+You may get support through the following channels:
+
+**For Tovy Cloud user**
+You may contact a support team member through Tovy Cloud's live chat function.
+
+**For self-hosted instance user**
+You may open a forum discussion in our Discord support section and community members will be able to help you. 
+
+_Please note that staff are **not required** to provide assistance in the support forum section and therefore, do not ping any staff member. Staff team may choose to help and the community may provide additional assistance. Fret not, we have a great community of members who are willing to help each  other._ 

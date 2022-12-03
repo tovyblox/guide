@@ -29,7 +29,7 @@ title: Introduction
       Packed with a lot of features, such as...
       <ul>
         <li>
-          Creating custom roles and invite users by a link
+          Creating custom roles and invite users or sync it to your group
         </li>
         <li>
           Bulk manage your group members
@@ -38,18 +38,30 @@ title: Introduction
           Track your members' group activity
         </li>
         <li>
+          Automate things with Tovy (soon)
+        </li>
+        <li>
+          Warn, promote, demote, and way more to your members
+        </li>
+        <li>
           Communicate with your members directly in Tovy
         </li>
-        <li>
-          Host sessions without causing a burden
+		<li>
+          Host your docs with Tovy
+        </li>
+		<li>
+          Assign your staff activity requirements (soon)
+        </li>
+		<li>
+          Track when your members are inactive with notices
         </li>
         <li>
-           Modify member's rank with Tovy's API, and a lot more.
+          Host & Schedule sessions without causing a burden
         </li>
       </ul>
     </li>
     <li>
-      Frontend written in JS with Vue, backend written in JS with Express
+      Frontend written in TS with Nextjs & TailwindCSS, backend written in Typescript & Next.js
     </li>
     <li>
       Completely open source
@@ -58,12 +70,15 @@ title: Introduction
   <h2>Quicklinks</h2>
   <ul>
     <li>
-      Need further assistance? –– <a href="https://discord.gg/2AJPbyNwbQ">Join our Discord server!</a>
+      Don't know how to install? –– <a href="https://docs.tovyblox.xyz/">Visit our documentation!</a>
+    </li>
+    <li>
+      Need further assistance? –– <a href="https://discord.gg/2AJPbyNwbQ">Join our Discord server!</a>
     </li>
     <li>
       🐛 Bugs? ✨ Suggestions? –– <a href="https://feedback.tovyblox.xyz/">Let us know here!</a>
     </li>
   </ul>
   <h2>License</h2>
-  Tovy is licensed under the Apache 2.0 license
+  Tovy is licensed under the <a href="./LICENSE">GNU General Public License v3.0.</a>
 </div>
