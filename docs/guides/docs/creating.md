@@ -14,7 +14,7 @@
 ![Enable docs](https://images.grplaza.org/staff/947b040045455a75520868bf47bc33b1.png)
 
 ### How To Set Up a Document
-1. Open your Tovy instance.
+1. Open your Tovy workspace.
 2. Open your "docs" tab.
 
 ![Sidebar](https://images.grplaza.org/staff/b609526f9758d2a55d0a0061f727109c.png)
