@@ -95,7 +95,7 @@ SESSION_SECRET="<your-secret-key-with-32-chars>"
 
 Then, replace the database URL with the postgres database you made
 
-#### Finishing Up
+### Finishing Up
 We use NextJS, so you have to build the website first if you want to officially use this in production. If not, skip to [Starting Tovy](https://docs.tovyblox.xyz/guides/deploy/setup.html#starting-tovy)
 
 Build the website for production:
@@ -121,7 +121,7 @@ yarn run build
 **This takes a few seconds/minutes depending on your machine's performance.**
 Move on to [Starting Tovy](https://docs.tovyblox.xyz/guides/deploy/setup.html#starting-tovy)
 
-#### Starting Tovy
+### Starting Tovy
 If you built your website for production, using the step above, use this to start Tovy.
 
 :::: code-group
@@ -162,7 +162,7 @@ yarn run dev
 :::
 ::::
 
-#### Setting up login and your group
+### Setting up login and your group
 
 Once Tovy has started running, Tovy should reside in [localhost:3000](http://localhost:300). Head to that page and setup login.
 
