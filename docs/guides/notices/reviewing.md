@@ -10,7 +10,9 @@ You will land on a page that shows the staff that are active and more!
 Press **view notices** on the page.
  
 ![Press view notices](https://images.grplaza.org/staff/463382d9364e0026a4832d50f3a66d69.png)
- Once you land on the page it will show you all the inactivity requests in your group. You can accept or deny them based on what you think (or your group rules) this will show up on the person who requested the inactivity screen once you decide.
+
+Once you land on the page it will show you all the inactivity requests in your group. You can accept or deny them based on what you think (or your group rules) this will show up on the person who requested the inactivity screen once you decide.
+ 
  ![Approve or deny inactivity](https://images.grplaza.org/staff/3122b2a30e66a65b0ec884d2e24d6c5e.png)
  > In this case Horne_t is breaking company rules by going on vacation (joke) so I will press deny.
  > For ItsWHOOOPS inactivity according to company policy we allow testing inactivity so I will press approve.
@@ -18,6 +20,7 @@ Press **view notices** on the page.
 The person requesting the inactivity will see this on the screen once you approve or deny (depending on which one you do)
 
 ![Declined](https://images.grplaza.org/staff/a32ed7dc32244f1e921b68286a76a5a8.png)
+
 ### Is this problem still persisting?
 If all the above steps are followed and the issue still persist, you may get support through the following channels:
 
