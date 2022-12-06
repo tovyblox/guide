@@ -156,7 +156,7 @@ For the secret key go to https://1password.com/password-generator/ and generate 
 Then in SESSION_SECRET paste the code you just made
 Check `Private repo?` and click `Deploy`.
 
-Railway will now create a MongoDB database and complete the initial setup for you. Just wait until you see `Success` at the top.
+Railway will now create a PostgreSQL database and complete the initial setup for you. Just wait until you see `Success` at the top.
 
 
 ### Setting up Tovy for the first time
