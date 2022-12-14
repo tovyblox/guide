@@ -15,12 +15,14 @@ For starter groups, we recommend using the Railway method as it is much easier t
 :::warning
 You are expected to know how to use the terminal as well as the NodeJS runtime.
 Tovy is **not responsible** for any user errors caused during the setup process, this includes money/playerbase losses, server crashes, et cetera.
+
+This guide does not provide instructions on getting a PostgreSQL database, [please use this resource from DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart) instead, if you use Ubuntu!
 :::
 
 As long as the corresponding platform is supported by the [NodeJS runtime](https://nodejs.org/), Tovy can be installed and hosted for your fellow group members to use.
 
 ### Prerequisites
-- A computer & a server
+- A machine that can run Console/Terminal tasks, as well as self-hosting your Tovy instance.
 - NodeJS 16+ installed with a package manager (Yarn, pnpm, or npm (included with NodeJS))
 - Git installed
 - A PostgreSQL database
@@ -61,17 +63,24 @@ yarn install
 ::::
 
 
+### Database Setup
+From the resource from DigitalOcean [linked here](https://docs.tovyblox.xyz/guides/deploy/setup.html#setting-up-tovy-in-your-server), you should have PostgreSQL with a user with password, and database setup!
 
+:::warning
+Occasionally, PostgreSQL does not prompt for a password when making a new user, so you can try the following commands below.
+:::
+* Log into PostgreSQL user as root/admin, and type `\password <username>`
 
-Once done, you should now see a page like this:
+Here's a template for your Database URL that you'll need later.
+```
+postgresql://username:password@<host>:<port>/<tovy db name>
+```
+- **Username:** User `(String)`
+- **Password:** User Password `(String)`
+- **Host:** IP Address of PostgreSQL server or `localhost` if Tovy is on the same machine as your PostgreSQL installation. `(IP/Domain/localhost)`
+- **Port:** Specify PostgreSQL Port / *5432 if you didn't modify it.* `(Number)`
+- **Tovy DB Name**: Database Name that the user has access to `(String)`
 
-![](https://cdn.iharrblx.xyz/firefox_C6DNujwvac.png)
-
-Click the `Connect` button, and choose the `Connect your application` option. After that, you will see this page:
-
-![](https://cdn.iharrblx.xyz/firefox_BAFUwxjJxw.png)
-
-Copy the URL, and replace `<password>` with the password you entered earlier for this database (Not to be confused with your MongoDB account password). You'll need this for the next part.
 
 ### Setting up Tovy for the first time
 Tovy requires some configuration before it can actually run. Configuring a system can be a hassle. However, luckily, we have made it very easy to do.
@@ -80,17 +89,80 @@ For the secret key go to https://1password.com/password-generator/ and generate 
 
 In the root of the file make a file called `.env` and copy/paste the below contents in it
 ```
-DATABASE_URL="<your-database-url>"
+DATABASE_URL="<Database URL from Database Setup>"
 SESSION_SECRET="<your-secret-key-with-32-chars>"
 ```
 
 Then, replace the database URL with the postgres database you made
 
-#### Starting Tovy
+### Finishing Up
+We use NextJS, so you have to build the website first if you want to officially use this in production. If not, skip to [Starting Tovy](https://docs.tovyblox.xyz/guides/deploy/setup.html#starting-tovy)
 
-Now all we need to do is run 
+Build the website for production:
 
-#### Setting up login and your group
+:::: code-group
+::: code-group-item npm
+```
+npm run build
+```
+:::
+::: code-group-item pnpm
+```
+pnpm run build
+```
+:::
+::: code-group-item Yarn
+```
+yarn run build
+```
+:::
+::::
+
+**This takes a few seconds/minutes depending on your machine's performance.**
+Move on to [Starting Tovy](https://docs.tovyblox.xyz/guides/deploy/setup.html#starting-tovy)
+
+### Starting Tovy
+If you built your website for production, using the step above, use this to start Tovy.
+
+:::: code-group
+::: code-group-item npm
+```
+npm run start
+```
+:::
+::: code-group-item pnpm
+```
+pnpm run start
+```
+:::
+::: code-group-item Yarn
+```
+yarn run start
+```
+:::
+::::
+
+Otherwise, if you didn't build Tovy, you cannot use the section "[Serving Tovy](https://docs.tovyblox.xyz/guides/deploy/setup.html#serving-tovy)", unless you build it. On the other hand, you can use **Dev Start** to instantly start Tovy to see any file changes without building it!
+
+:::: code-group
+::: code-group-item npm
+```
+npm run dev
+```
+:::
+::: code-group-item pnpm
+```
+pnpm run dev
+```
+:::
+::: code-group-item Yarn
+```
+yarn run dev
+```
+:::
+::::
+
+### Setting up login and your group
 
 Once Tovy has started running, Tovy should reside in [localhost:3000](http://localhost:300). Head to that page and setup login.
 
@@ -106,6 +178,12 @@ Now, you should be able to see a new page, asking for your Roblox group's inform
 
 ### Serving Tovy
 We will be using a tool to keep Tovy's instance always online –– `pm2`, this can be installed with your NodeJS package manager.
+
+::: warning Starting without Building
+Stop! Do not use this section if you did not build Tovy. Go back to [Finishing Up](https://docs.tovyblox.xyz/guides/deploy/setup.html#finishing-up).
+
+If you want to try Tovy without building it, you can go to [Starting Tovy](https://docs.tovyblox.xyz/guides/deploy/setup.html#starting-tovy) and start a **Dev Build**.
+:::
 
 :::: code-group
 ::: code-group-item npm
