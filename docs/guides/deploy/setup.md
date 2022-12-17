@@ -61,6 +61,8 @@ docker compose -f docker-compose.yml up -d
 
 Finally, you can now access Tovy by going to `http://YOUR_SERVER_IP:3000` in your browser or by using a reverse proxy like [Caddy](https://caddyserver.com) or [Nginx Proxy Manager](https://nginxproxymanager.com).
 
+*To view real-time logs, run `docker compose -f docker-compose.production.yml logs -t -f`*
+
 ## Self-Hosting (Local)
 :::warning
 You are expected to know how to use the terminal as well as the NodeJS runtime.
