@@ -11,7 +11,57 @@ For starter groups, we recommend using the Railway method as it is much easier t
 ## Table of Content
 [[toc]]
 
-## Setting up Tovy in your server
+## Self-hosting using Docker (Recommended)
+:::warning
+These steps assume you are already familiar with Docker and it's runtime. If not, you should probably use the local installation method instead.
+
+Tovy is **not responsible** for any user errors caused during the setup process, this includes money/playerbase losses, server crashes, et cetera.
+:::
+
+### Prerequisites
+- A machine that can run Console/Terminal tasks, as well as self-hosting your Tovy instance.
+- A stable internet connection *duh*
+- Git installed
+- Docker installed *(Docker Compose v2 or higher is recommended)*
+
+### Downloading Tovy and required dependencies
+:::warning
+This guide assumes you have [Git](https://git-scm.com) and [Docker](https://www.docker.com) installed on your machine already.
+
+If you are using Windows, please install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) first.
+:::
+
+First, you need to download Tovy. You can do this by running the following command in your terminal:
+```
+git clone https://github.com/tovyblox/tovy && cd tovy/
+```
+
+After it finishes downloading, you should now be in Tovy's directory, before we can start thogh we need to define some environment variables. You can do this by copying the `.env.example` file to `.env`:
+```
+cp .env.example .env
+```
+
+Next, open the `.env` file in your favorite text editor, for this guide we will be using nano:
+```
+nano .env
+```
+
+Once you are in the `.env` file, you will need to fill in the following fields:
+
+SESSION_SECRET - This is a secret key that is used to encrypt your session data. You can generate one [here](https://1password.com/password-generator/). Make sure to use a 32 character key with symbols.
+
+DATABASE_URL - LEAVE THIS BLANK, Docker will automatically fill this in for you.
+
+POSTGRES_PASSWORD - This is the password for your PostgreSQL database, it is highly recommended that you change this from the default password.
+
+Once you are done, save the file and exit the editor. You can now start Tovy by running the following command:
+```
+docker compose -f docker-compose.yml up -d
+```
+
+Finally, you can now access Tovy by going to `http://YOUR_SERVER_IP:3000` in your browser or by using a reverse proxy like [Caddy](https://caddyserver.com) or [Nginx Proxy Manager](https://nginxproxymanager.com).
+
+## Self-Hosting (Local)
 :::warning
 You are expected to know how to use the terminal as well as the NodeJS runtime.
 Tovy is **not responsible** for any user errors caused during the setup process, this includes money/playerbase losses, server crashes, et cetera.
