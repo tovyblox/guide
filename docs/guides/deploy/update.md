@@ -4,6 +4,16 @@ Tovy releases update regularly to keep Tovy powerful and safe to use. In order t
 ## Table of Content
 [[toc]]
 
+## Updating Tovy using Docker
+1. Shut the bot down: `docker compose -f docker-compose.yml down`
+
+2. Pull the latest changes: `git pull`
+
+3. Start the bot again: `docker compose -f docker-compose.yml up -d`
+
+4. Done!
+
+
 ### Updating Tovy in your server
 When you are using `git clone`, it clones the entire repository to your device. Hence, updating will be easier and usually takes one line to complete. As long as you do not modify the source code.
 
