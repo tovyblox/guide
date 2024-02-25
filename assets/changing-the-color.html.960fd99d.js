@@ -1,0 +1,1 @@
+const e={key:"v-62c48a92",path:"/guide/settings/changing-the-color.html",title:"Changing The Color",lang:"en-US",frontmatter:{description:"This will show you how to change the color on the website to fit your group or preferences!"},excerpt:"",headers:[],git:{},filePathRelative:"guide/settings/changing-the-color.md"};export{e as data};

@@ -1,0 +1,1 @@
+const t={key:"v-052d8563",path:"/guides/settings/color.html",title:"Customizing Your Workspace",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Getting Started",slug:"getting-started",children:[]},{level:2,title:"FAQ's",slug:"faq-s",children:[]}],git:{},filePathRelative:"guides/settings/color.md"};export{t as data};

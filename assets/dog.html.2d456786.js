@@ -1,0 +1,1 @@
+const e={key:"v-3ba62e09",path:"/guide/dog.html",title:"Style",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"hungry",slug:"hungry",children:[]}],git:{},filePathRelative:"guide/dog.md"};export{e as data};

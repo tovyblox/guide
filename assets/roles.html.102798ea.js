@@ -1,0 +1,1 @@
+const e={key:"v-494f8293",path:"/guide/permissions/roles.html",title:"Roles",lang:"en-US",frontmatter:{description:"This will show how to setup permissions for roles on the website."},excerpt:"",headers:[],git:{},filePathRelative:"guide/permissions/roles.md"};export{e as data};

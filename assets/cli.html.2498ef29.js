@@ -1,0 +1,1 @@
+import{o as e,c as t,a as c,d as o}from"./app.a072516b.js";import{_ as a}from"./plugin-vue_export-helper.21dcd24c.js";const r={},s={id:"cli",tabindex:"-1"},_=c("a",{class:"header-anchor",href:"#cli","aria-hidden":"true"},"#",-1),n=o(" CLI"),d=[_,n];function i(h,l){return e(),t("h1",s,d)}var p=a(r,[["render",i]]);export{p as default};

@@ -1,0 +1,1 @@
+const e={key:"v-34b00782",path:"/guide/hosting/updating-railway.html",title:"Updating railway",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"Enable PR updates",slug:"enable-pr-updates",children:[]},{level:3,title:"Updating our repo",slug:"updating-our-repo",children:[]}],git:{},filePathRelative:"guide/hosting/updating-railway.md"};export{e as data};

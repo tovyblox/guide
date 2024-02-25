@@ -1,0 +1,1 @@
+const e={key:"v-62e2791e",path:"/guide/notices/how-to-review-notices.html",title:"How To Review Notices",lang:"en-US",frontmatter:{description:"In this guide you will learn how to review notices so you can keep on top of all your staffs activity!"},excerpt:"",headers:[],git:{},filePathRelative:"guide/notices/how-to-review-notices.md"};export{e as data};

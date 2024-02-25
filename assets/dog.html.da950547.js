@@ -1,0 +1,1 @@
+const e={key:"v-33c2cef6",path:"/guide/uwu/dog.html",title:"Style",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"hungry",slug:"hungry",children:[]}],git:{},filePathRelative:"guide/uwu/dog.md"};export{e as data};

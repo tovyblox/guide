@@ -1,0 +1,1 @@
+const e={key:"v-581f3f8e",path:"/guide/notices/how-to-create-a-notice.html",title:"How To Create A Notice",lang:"en-US",frontmatter:{description:"You will learn how to create a notice for yourself in this guide."},excerpt:"",headers:[],git:{},filePathRelative:"guide/notices/how-to-create-a-notice.md"};export{e as data};
